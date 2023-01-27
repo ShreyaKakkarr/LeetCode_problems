@@ -1,0 +1,24 @@
+Algorithm:-
+
+Initialize a variable n to 1. This variable will be used to keep track of the current number in the sequence.
+
+Initialize a variable result to "1". This variable will be used to store the final sequence.
+
+Use a loop to iterate n from 1 to the desired number of terms in the sequence.
+
+In each iteration of the loop:
+a. Convert the current value of n to a string and store it in a variable str_n.
+b. Initialize a variable count to 1.
+c. Initialize a variable temp to an empty string.
+d. Use another loop to iterate through the characters of str_n.
+e. In each iteration of the inner loop:
+i. Compare the current character to the next character.
+ii. If the characters are the same, increment the count variable by 1.
+iii. If the characters are different, or if you have reached the last character, append the value of count and the current character to temp.
+iv. reset count=1
+f. Set result to the value of temp.
+g. Increment n by 1.
+
+Return the final value of result.
+
+SOURCE CODE:-
